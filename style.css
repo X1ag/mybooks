@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: myFont;
+}
+@font-face {
+  font-family: "myFont";
+  src: url(./fonts/myFont.otf);
+  font-style: normal;
+  font-weight: normal;
+}
+.bg {
+  background: url("images/ajylkzcfqnf.jpg") no-repeat;
+  background-size: 100%;
+}
+/* body:nth-child(1):hover ~ .bg {
+  background-size: 100%;
+} */
+
+.h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: myFont;
+  margin-top: 20px;
+  color: #ff7f50;
+}
+
+/* .rectangle{
+    border: 2px solid linear-gradient(90deg, #aea4e3, #d3ffe8);
+    width: 800px;
+    margin: 0 auto;
+    height: 90px;
+    margin-top: 15px;
+    background:linear-gradient(90deg, #aea4e3, #d3ffe8);
+} */
+
+.h3 {
+  text-align: center;
+  font-family: Arial;
+  font-size: 20px;
+  margin-top: -17px;
+  font-family: myFont;
+  padding-top: 10px;
+  color: #ffc0cb;
+}
+
+.books {
+  position: relative;
+  right: -12%;
+  margin: 4%;
+  font-family: myFont;
+  font-size: 33px;
+}
+.divbooks div {
+  transition: all 0.3s ease 0s;
+}
+.divbooks div:hover {
+  transform: scale(1.3);
+}
+.divbooks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px;
+  font-size: 40px;
+  color: #0000cd;
+  transition: all 0.3s ease 0s;
+}
+.divbooks a:hover {
+  transform: scale(1.3);
+}
+a {
+  transition: all 0.3s ease 0s;
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #00bfff;
+}
+
+.redcolor {
+  color: #0000cd;
+  font-style: italic;
+}
+.growup {
+  margin-top: 35px;
+}
